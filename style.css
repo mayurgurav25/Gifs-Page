@@ -1,0 +1,64 @@
+.title {
+    background: greenyellow;
+    color: hotpink;
+    padding: 10px;
+    border-bottom: 7px solid hotpink;
+    text-align: center;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.body {
+    background: rgb(215, 216, 255);
+    padding: 50px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.container .card {
+    padding-top: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 10px solid greenyellow;
+    border-bottom-left-radius: 70px;
+    border-top: 10px solid greenyellow;
+    border-top-right-radius: 70px;
+}
+
+.card:hover {
+    border-bottom: 10px solid blueviolet;
+    border-bottom-left-radius: 70px;
+    border-top: 10px solid blueviolet;
+    border-top-right-radius: 70px;
+    transform: scale(1.05);
+    color: teal
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+.gif {
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+}
+
+@keyframes example {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 5px;
+        font-size: 50px;
+    }
+}
